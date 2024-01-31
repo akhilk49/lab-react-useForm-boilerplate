@@ -1,0 +1,30 @@
+.parent-container{
+    border: 2px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: aquamarine;
+  }
+  
+  label{
+    color: red;
+    display: block;
+    padding-top: 10px;
+  }
+  input{
+    border: 1px solid black;
+    border-radius: 2px;
+  }
+  button{
+    padding-top: 10px;
+  }
+
+  #submit{
+    margin: 20px;
+  }
